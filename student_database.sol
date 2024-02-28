@@ -21,3 +21,6 @@ contract StudentDB{
         id_to_name[_student_id] = Student(_name, _age, _student_id, _dept);
     }
 }
+
+//deployed contract address - 0x82c8391B88E8144AE2f6bffb65d654A4ffcE231d
+//https://sepolia.etherscan.io/address/0x82c8391B88E8144AE2f6bffb65d654A4ffcE231d
