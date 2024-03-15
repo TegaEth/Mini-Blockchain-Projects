@@ -27,7 +27,6 @@ contract CallSimple{
     // After its been fetched we just call the function directly  using the retrieve function it has 
     // Its important to add the return function since its what returns the value, lmao!
     function sfGet(uint256 newSimpleStorageIndex) public view returns(uint256){
-        SimpleStorage mysimplestorage = listofsimplestorage[newSimpleStorageIndex];
-        return mysimplestorage.retrieve();
+        return listofsimplestorage[newSimpleStorageIndex].retrieve();
     }
 }
